@@ -33,11 +33,14 @@ This project was developed as part of the **Graphics API Programming** course at
 
 ## Project Structure
 
+```
 ├── shader.fx # Vertex, geometry, and pixel shaders (HLSL)
 ├── GeometryHelper.h/.cpp # Geometry generation and camera logic
 ├── RenderWidget.cpp/.h # DirectX 12 initialization and rendering loop
-├── PwAG_DirectX_4.pdf # Laboratory instruction document
-└── README.md # Project documentation
+├── System.cpp            # Application window and event loop
+├── .gitignore            # Excludes build artifacts and cache
+└── README.md             # Project documentation
+```
 
 ## Results
 
